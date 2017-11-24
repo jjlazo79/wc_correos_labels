@@ -1048,11 +1048,11 @@ $xmlSend_pendrive='<x:Envelope xmlns:x="http://schemas.xmlsoap.org/soap/envelope
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
         $result = curl_exec($ch);
 
-echo "PENDRIVE<br>";
-echo "Código de producto: ".$codigo_producto."<br>";
-echo "<pre>";
-var_dump($result);
-echo "</pre>";
+// echo "PENDRIVE<br>";
+// echo "Código de producto: ".$codigo_producto."<br>";
+// echo "<pre>";
+// var_dump($result);
+// echo "</pre>";
 // die(); 
 
         $dataXml = simplexml_load_string($result);
